@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+.venv/
+
+# Crawled content
+output/
+!output/.gitkeep
+
+# Remove old paths that shouldn't exist
+-crawl4ai/
+-crawled_content/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Temp files
+*.log
+.DS_Store 
